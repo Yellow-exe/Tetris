@@ -58,8 +58,8 @@ int main() {
             }
         }
         ///decipher the codes from "shapes"///
-        int n = 0;
-        //int n = rand() % 7;
+        //int n = 0;
+        int n = rand() % 7;
         if (!init) {
             for (int i = 0; i < 4; i++) {
                 a[i].x = shapes[n][i] % 2;
